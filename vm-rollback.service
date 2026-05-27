@@ -1,0 +1,6 @@
+[Unit]
+Description=Rollback Proxmox VM to snapshot
+
+[Service]
+Type=oneshot
+ExecStart=/root/daily-vm-rollback.sh
